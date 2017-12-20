@@ -1,0 +1,130 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Your template name 
+    Template URI: http://bootexperts.com
+    Description: This is html5 template
+    Author: BootExperts
+    Author URI: http://bootexperts.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+
+-----------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+  color: #1E1E1E;
+}
+a {-webkit-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ec4445;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.about-area {}
+.section-padding {
+  padding: 80px 0;
+}
+.section-title {
+  line-height: 1.8;
+  margin-bottom: 50px;
+}
+.section-title h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.section-title p {}
+.about-img {}
+.about-img img {
+  max-width: 70%;
+}
+.about-info {
+  background: #fff none repeat scroll 0 0;
+  border: 10px solid #f0f0f0;
+  line-height: 1.7;
+  margin-top: -100px;
+  max-width: 85%;
+  padding: 20px 50px 20px 20px;
+  position: relative;
+}
+.social-links {
+  max-width: 40px;
+  position: absolute;
+  right: -25px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.social-links a {
+  background: #efefef none repeat scroll 0 0;
+  border-radius: 50%;
+  color: #1d1a75;
+  display: inline-block;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  margin: 5px 0;
+  text-align: center;
+  width: 40px;
+}
+.about-info h2 {
+  font-weight: 700;
+}
+.about-info p {}
+.right-side {}
+.right-side .about-info {
+  float: right;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+.right-side .about-info .social-links {
+  right: 0;
+  left: -25px;
+}
